@@ -1,0 +1,78 @@
+2025-09-18 19:17:08,055 - INFO - Creating synthetic dataset with 1000 samples...
+2025-09-18 19:17:08,056 - INFO - Generating synthetic field parameters...
+2025-09-18 19:17:29,655 - INFO - Generated 100/1000 samples
+2025-09-18 19:17:48,684 - INFO - Generated 200/1000 samples
+2025-09-18 19:18:06,054 - INFO - Generated 300/1000 samples
+2025-09-18 19:18:24,300 - INFO - Generated 400/1000 samples
+2025-09-18 19:18:45,008 - INFO - Generated 500/1000 samples
+2025-09-18 19:19:04,401 - INFO - Generated 600/1000 samples
+2025-09-18 19:19:23,117 - INFO - Generated 700/1000 samples
+2025-09-18 19:19:41,572 - INFO - Generated 800/1000 samples
+2025-09-18 19:20:00,080 - INFO - Generated 900/1000 samples
+2025-09-18 19:20:18,114 - INFO - Generated 1000/1000 samples
+2025-09-18 19:20:18,156 - INFO - Dataset created successfully!
+2025-09-18 19:20:18,156 - INFO -   Location: data\crop_yield_dataset.csv
+2025-09-18 19:20:18,156 - INFO -   Samples: 1000
+2025-09-18 19:20:18,157 - INFO -   Yield range: 1.0 - 3.7 tons/ha
+2025-09-18 19:20:18,157 - INFO -   Mean yield: 1.26 ± 0.40 tons/ha
+2025-09-18 19:20:18,158 - INFO - Building CNN model architecture...
+2025-09-18 19:20:18,475 - INFO - Model architecture built successfully!
+2025-09-18 19:20:18,476 - INFO - Total parameters: 936,097
+2025-09-18 19:20:18,478 - INFO - Preparing data splits...
+2025-09-18 19:20:18,491 - INFO - Data splits created:
+2025-09-18 19:20:18,492 - INFO -   Training: 700 samples (70.0%)
+2025-09-18 19:20:18,492 - INFO -   Validation: 150 samples (15.0%)
+2025-09-18 19:20:18,492 - INFO -   Test: 150 samples (15.0%)
+2025-09-18 19:20:18,494 - INFO - Starting training for 30 epochs...
+2025-09-18 19:20:18,498 - INFO - Training started...
+2025-09-18 19:22:38,001 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-09-18 19:26:42,463 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-09-18 19:29:46,267 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-09-18 19:34:33,745 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-09-18 19:38:30,720 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-09-18 20:23:03,636 - INFO - Training completed!
+2025-09-18 20:23:03,681 - INFO - Evaluating model on test set...
+2025-09-18 20:23:04,139 - INFO - Making predictions...
+2025-09-18 20:23:14,129 - INFO - Model Evaluation Results:
+2025-09-18 20:23:14,129 - INFO -   RMSE: 0.846 tons/ha
+2025-09-18 20:23:14,130 - INFO -   MAE: 0.633 tons/ha
+2025-09-18 20:23:14,130 - INFO -   R² Score: -3.821
+2025-09-18 20:23:14,131 - INFO -   MAPE: 53.6%
+2025-09-18 20:25:01,247 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-09-27 14:08:30,408 - INFO - Creating synthetic dataset with 1000 samples...
+2025-09-27 14:08:30,410 - INFO - Generating synthetic field parameters...
+2025-09-27 14:08:48,691 - INFO - Generated 100/1000 samples
+2025-09-27 14:09:16,014 - INFO - Generated 200/1000 samples
+2025-09-27 14:10:10,977 - INFO - Generated 300/1000 samples
+2025-09-27 14:11:11,325 - INFO - Generated 400/1000 samples
+2025-09-27 14:11:58,416 - INFO - Generated 500/1000 samples
+2025-09-27 14:12:19,023 - INFO - Generated 600/1000 samples
+2025-09-27 14:12:39,107 - INFO - Generated 700/1000 samples
+2025-09-27 14:12:59,847 - INFO - Generated 800/1000 samples
+2025-09-27 14:13:47,988 - INFO - Generated 900/1000 samples
+2025-09-27 14:14:36,840 - INFO - Generated 1000/1000 samples
+2025-09-27 14:14:37,017 - INFO - Dataset created successfully!
+2025-09-27 14:14:37,018 - INFO -   Location: data\crop_yield_dataset.csv
+2025-09-27 14:14:37,019 - INFO -   Samples: 1000
+2025-09-27 14:14:37,019 - INFO -   Yield range: 1.0 - 3.7 tons/ha
+2025-09-27 14:14:37,020 - INFO -   Mean yield: 1.26 ± 0.40 tons/ha
+2025-09-27 14:14:37,025 - INFO - Building CNN model architecture...
+2025-09-27 14:14:37,984 - INFO - Model architecture built successfully!
+2025-09-27 14:14:37,986 - INFO - Total parameters: 936,097
+2025-09-27 14:14:37,989 - INFO - Preparing data splits...
+2025-09-27 14:14:38,070 - INFO - Data splits created:
+2025-09-27 14:14:38,071 - INFO -   Training: 700 samples (70.0%)
+2025-09-27 14:14:38,071 - INFO -   Validation: 150 samples (15.0%)
+2025-09-27 14:14:38,072 - INFO -   Test: 150 samples (15.0%)
+2025-09-27 14:14:38,074 - INFO - Starting training for 30 epochs...
+2025-09-27 14:14:38,084 - INFO - Training started...
+2025-09-27 14:17:40,539 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-09-27 15:17:37,610 - INFO - Training completed!
+2025-09-27 15:17:37,663 - INFO - Evaluating model on test set...
+2025-09-27 15:17:38,997 - INFO - Making predictions...
+2025-09-27 15:17:55,060 - INFO - Model Evaluation Results:
+2025-09-27 15:17:55,061 - INFO -   RMSE: 1.291 tons/ha
+2025-09-27 15:17:55,062 - INFO -   MAE: 1.231 tons/ha
+2025-09-27 15:17:55,062 - INFO -   R² Score: -10.221
+2025-09-27 15:17:55,063 - INFO -   MAPE: 98.6%
+2025-09-27 15:18:14,996 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
