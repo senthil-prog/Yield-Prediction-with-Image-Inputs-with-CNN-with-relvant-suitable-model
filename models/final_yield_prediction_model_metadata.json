@@ -1,0 +1,16 @@
+{
+  "model_filename": "final_yield_prediction_model.h5",
+  "creation_date": "2025-09-27T15:18:15.284897",
+  "model_parameters": 936097,
+  "input_shape": [
+    224,
+    224,
+    3
+  ],
+  "output_shape": [
+    1
+  ],
+  "architecture": "CNN_Regression",
+  "optimizer": "Adam",
+  "loss_function": "Huber"
+}
